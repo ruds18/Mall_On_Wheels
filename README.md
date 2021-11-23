@@ -26,4 +26,6 @@ Css frameworks  - Material UI and  Bootstrap
 
 # Demo
 
-<img src="https://github.com/ruds18/ruds18/blob/main/Screenshot%202021-11-23%20at%205.04.10%20PM.png" width="400" />
+<div><img src="https://github.com/ruds18/ruds18/blob/main/Screenshot%202021-11-23%20at%205.04.10%20PM.png" width="400" />
+<img src="https://github.com/ruds18/ruds18/blob/main/Screenshot%202021-11-23%20at%205.29.41%20PM.png" width="400"/></div>
+
