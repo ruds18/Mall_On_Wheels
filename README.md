@@ -24,3 +24,6 @@ Usage of  API's - Commerce.js and Stripe for payment
 
 Css frameworks  - Material UI and  Bootstrap
 
+# Demo
+
+<img src="https://drive.google.com/file/d/123i8jEzWZHHulAC24mQa7IzvYpbeBAEC/view?usp=sharing" width="400" />
