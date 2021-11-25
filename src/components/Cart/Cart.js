@@ -15,7 +15,7 @@ const Cart = ({ cart, HandelUpdateCartQty, HandelEmptyCart, HandelRemoveFromCart
     const classes = useStyles();
 
     const EmptyCart = ()=>(
-        <Typography variant="subtitle1">Shopping Cart in Empty 😕 
+        <Typography variant="subtitle1">Shopping Cart is Empty 😕 
         <Typography variant="subtitle1"> click on the logo to start shopping 🥰 😀</Typography>
         
         </Typography>
