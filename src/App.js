@@ -6,8 +6,6 @@ import Cart from './components/Cart/Cart';
 import { BrowserRouter as Route, Switch } from 'react-router-dom';
 import Checkout from './components/CheckoutForm/Checkout/Checkout'
 
-
-
 const  App =() => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
