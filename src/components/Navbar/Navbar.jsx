@@ -5,8 +5,7 @@ import useStyles from './styles'
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container, Form, FormControl, Button, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import './dropdown.css'
 
 const Nav_bar = ({ totalItems }) => {
     const classes = useStyles();
@@ -25,19 +24,53 @@ const Nav_bar = ({ totalItems }) => {
                     <Navbar bg="white" variant="light">
                         <Container>
                             <Nav className="me-auto">
-                                
-                                <Nav.Link href="#sccount">Account</Nav.Link>
-                                <Nav.Link href="#orders">Orders</Nav.Link>
-                                <Nav.Link href="#return">Returns</Nav.Link>
-                                <Nav.Link href="#complain">Complains</Nav.Link>
-                                <Nav.Link href="#wishlist">Your Wishlist</Nav.Link>
-                                <Nav.Link href="#sale">Current Sale</Nav.Link>
-                                <NavDropdown title="Malls Near You" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.4">Selected Kolkata</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.1">DumDum: Diamond Plaza</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Shyambazar: Jaharlal Mall</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Howrah: Forum Rangoli Mall</NavDropdown.Item>
+
+                                <Nav.Link href="/sccount">Hey!, User Dummy</Nav.Link>
+                                <Nav.Link href="/orders">Orders</Nav.Link>
+                                <Nav.Link href="/return">Returns</Nav.Link>
+                                <Nav.Link href="/complain">Complains</Nav.Link>
+                                <Nav.Link href="/wishlist">Your Wishlist</Nav.Link>
+                                <Nav.Link href="/sale">Current Sale</Nav.Link>
+                                <NavDropdown title="Malls Near You" class="dropdown-menu" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.4">Andhra Pradesh</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Arunachal Pradesh</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Assam</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Bihar</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Chhattisgarh</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Goa</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Gujarat</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Haryana</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Himachal Pradesh</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Jharkhand</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Karnataka</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Kerala</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Madhya Pradesh</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Kolkata</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Maharashtra</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Manipur</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Meghalaya</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Mizoram</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Nagaland</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.4">Odisha</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Punjab</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Rajasthan</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Sikkim</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Tamil Nadu</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Telangana</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Tripura</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Uttar Pradesh</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">Uttarakhand</NavDropdown.Item>
+
+                                    <NavDropdown.Item href="#action/3.4">West Bengal</NavDropdown.Item>
+
 
 
                                 </NavDropdown>

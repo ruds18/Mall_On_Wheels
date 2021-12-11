@@ -1,29 +1,29 @@
-import { Button, Grid, InputLabel,  MenuItem, Select, Typography } from '@material-ui/core'
+import { Button, Grid, Typography } from '@material-ui/core'
 import React from 'react'
 import { useState } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import FormInput from './CustomTextField'
 import {commerce} from '../../lib/commerce'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import {Link} from 'react-router-dom'
 
 const AddressForm = ({checkoutToken, next}) => {
     const [shippingCountries , setShippingCountries] = useState([]);
-    const [shippingCountry , setShippingCountry] = useState('');
-    const [shippingSubdivisions , setShippingSubdivisions] = useState([]);
-    const [shippingSubdivision , setShippingSubdivision] = useState('');
-    const [shippingOptions , setShippingOptions] = useState([]);
-    const [shippingOption , setShippingOption] = useState('');
+    // const [shippingCountry , setShippingCountry] = useState('');
+    // const [shippingSubdivisions , setShippingSubdivisions] = useState([]);
+    // const [shippingSubdivision , setShippingSubdivision] = useState('');
+    // const [shippingOptions , setShippingOptions] = useState([]);
+    // const [shippingOption , setShippingOption] = useState('');
     const methods= useForm();
 
-    const countries = Object.entries(shippingCountries).map(([code, name])=>({id: code, label:name}))
+    // const countries = Object.entries(shippingCountries).map(([code, name])=>({id: code, label:name}))
 
-    const fetchShippingCountries= async(checkoutTokenId)=> {
-        const {countries} = await commerce.services.localeListShippingCountries(checkoutTokenId)
+    // const fetchShippingCountries= async(checkoutTokenId)=> {
+    //     const {countries} = await commerce.services.localeListShippingCountries(checkoutTokenId)
 
-        setShippingCountries(countries);
-        setShippingCountries(Object.keys(countries)[0])
-    }
+    //     setShippingCountries(countries);
+    //     setShippingCountries(Object.keys(countries)[0])
+    // }
 
 //    useEffect(()=>{
 //        setShippingCountries(checkoutToken.id)
